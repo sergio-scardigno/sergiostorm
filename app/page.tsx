@@ -119,6 +119,11 @@ const data: Data = {
             title: 'Facebook',
             image: '/img/facebook.png',
         },
+        {
+            href: 'https://www.tiktok.com/@taimpresiones3dlaplat',
+            title: 'TkKtok',
+            image: '/img/tiktok.png',
+        },
     ],
     socials: [
         {
