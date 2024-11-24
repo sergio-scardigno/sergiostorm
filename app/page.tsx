@@ -53,6 +53,30 @@ function InstagramIcon() {
     );
 }
 
+function YouTubeIcon() {
+    return (
+        <a
+            href="https://www.youtube.com/channel/your-channel-id"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <title>YouTube</title>
+                <path
+                    d="M23.498 6.186a2.983 2.983 0 00-2.1-2.11C19.718 3.5 12 3.5 12 3.5s-7.718 0-9.398.576a2.983 2.983 0 00-2.1 2.11C0 7.866 0 12 0 12s0 4.134.502 5.814a2.983 2.983 0 002.1 2.11C4.282 20.5 12 20.5 12 20.5s7.718 0 9.398-.576a2.983 2.983 0 002.1-2.11C24 16.134 24 12 24 12s0-4.134-.502-5.814zM9.75 15.02v-6.04l6.021 3.02L9.75 15.02z"
+                    fill="currentColor"
+                />
+            </svg>
+        </a>
+    );
+}
+
 type Data = {
     name: string;
     avatar: string;
@@ -120,9 +144,15 @@ const data: Data = {
             image: '/img/facebook.png',
         },
         {
-            href: 'https://www.tiktok.com/@taimpresiones3dlaplat',
-            title: 'TkKtok',
+            href: 'https://www.tiktok.com/@taimpresiones3dlaplata',
+            title: 'TiKtok',
             image: '/img/tiktok.png',
+        },
+
+        {
+            href: 'https://www.youtube.com/@TAImpresiones3D',
+            title: 'Youtube',
+            image: '/img/youtube.png',
         },
     ],
     socials: [
@@ -133,6 +163,10 @@ const data: Data = {
         {
             href: 'https://www.instagram.com/taimpresiones3dlaplata/',
             title: 'Instagram',
+        },
+        {
+            href: 'https://www.youtube.com/@TAImpresiones3D',
+            title: 'Youtube',
         },
     ],
 };
@@ -166,6 +200,9 @@ export default function HomePage() {
                     }
                     if (social.href.includes('instagram')) {
                         return <InstagramIcon key={social.href} />;
+                    }
+                    if (social.href.includes('youtube')) {
+                        return <YouTubeIcon key={social.href} />;
                     }
                     return null;
                 })}
