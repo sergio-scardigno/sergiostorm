@@ -1,62 +1,62 @@
 import Image from 'next/image';
 
-// function FacebookIcon() {
-//     return (
-//         <a href="https://web.facebook.com/ta.impresiones">
-//             <svg
-//                 width="24"
-//                 height="24"
-//                 viewBox="0 0 24 24"
-//                 fill="none"
-//                 xmlns="http://www.w3.org/2000/svg"
-//             >
-//                 <title>Facebook</title>
-//                 <path
-//                     d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.35C0 23.4.6 24 1.325 24h21.35C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0zm-2.225 12.219h-3.042v9.263h-4.11v-9.263h-2.848v-3.428h2.848v-2.517c0-2.805 1.24-4.56 4.658-4.56 1.25 0 2.56.225 2.56.225v3.196h-1.444c-1.39 0-1.833.867-1.833 1.753v2.015h3.42l-.54 3.428z"
-//                     fill="currentColor"
-//                 />
-//             </svg>
-//         </a>
-//     );
-// }
+function FacebookIcon() {
+    return (
+        <a href="https://web.facebook.com/ta.impresiones">
+            <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <title>Facebook</title>
+                <path
+                    d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.35C0 23.4.6 24 1.325 24h21.35C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0zm-2.225 12.219h-3.042v9.263h-4.11v-9.263h-2.848v-3.428h2.848v-2.517c0-2.805 1.24-4.56 4.658-4.56 1.25 0 2.56.225 2.56.225v3.196h-1.444c-1.39 0-1.833.867-1.833 1.753v2.015h3.42l-.54 3.428z"
+                    fill="currentColor"
+                />
+            </svg>
+        </a>
+    );
+}
 
-// function InstagramIcon() {
-//     return (
-//         <a href="https://www.instagram.com/taimpresiones3dlaplata/">
-//             <svg
-//                 xmlns="http://www.w3.org/2000/svg"
-//                 x="0px"
-//                 y="0px"
-//                 width="24"
-//                 height="24"
-//                 viewBox="0 0 256 256"
-//             >
-//                 <g
-//                     fill="#ffffff"
-//                     fillRule="nonzero" // Usar camelCase
-//                     stroke="none"
-//                     strokeWidth="1" // Usar camelCase
-//                     strokeLinecap="butt" // Usar camelCase
-//                     strokeLinejoin="miter" // Usar camelCase
-//                     strokeMiterlimit="10" // Usar camelCase
-//                     fontFamily="none"
-//                     fontWeight="none"
-//                     fontSize="none"
-//                     textAnchor="none"
-//                 >
-//                     <g transform="scale(8.53333,8.53333)">
-//                         <path d="M9.99805,3c-3.859,0 -6.99805,3.14195 -6.99805,7.00195v10c0,3.859 3.14195,6.99805 7.00195,6.99805h10c3.859,0 6.99805,-3.14195 6.99805,-7.00195v-10c0,-3.859 -3.14195,-6.99805 -7.00195,-6.99805zM22,7c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM15,9c3.309,0 6,2.691 6,6c0,3.309 -2.691,6 -6,6c-3.309,0 -6,-2.691 -6,-6c0,-3.309 2.691,-6 6,-6zM15,11c-2.20914,0 -4,1.79086 -4,4c0,2.20914 1.79086,4 4,4c2.20914,0 4,-1.79086 4,-4c0,-2.20914 -1.79086,-4 -4,-4z"></path>
-//                     </g>
-//                 </g>
-//             </svg>
-//         </a>
-//     );
-// }
+function InstagramIcon() {
+    return (
+        <a href="https://www.instagram.com/taimpresiones3dlaplata/">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 256 256"
+            >
+                <g
+                    fill="#ffffff"
+                    fillRule="nonzero"
+                    stroke="none"
+                    strokeWidth="1"
+                    strokeLinecap="butt"
+                    strokeLinejoin="miter"
+                    strokeMiterlimit="10"
+                    fontFamily="none"
+                    fontWeight="none"
+                    fontSize="none"
+                    textAnchor="none"
+                >
+                    <g transform="scale(8.53333,8.53333)">
+                        <path d="M9.99805,3c-3.859,0 -6.99805,3.14195 -6.99805,7.00195v10c0,3.859 3.14195,6.99805 7.00195,6.99805h10c3.859,0 6.99805,-3.14195 6.99805,-7.00195v-10c0,-3.859 -3.14195,-6.99805 -7.00195,-6.99805zM22,7c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1zM15,9c3.309,0 6,2.691 6,6c0,3.309 -2.691,6 -6,6c-3.309,0 -6,-2.691 -6,-6c0,-3.309 2.691,-6 6,-6zM15,11c-2.20914,0 -4,1.79086 -4,4c0,2.20914 1.79086,4 4,4c2.20914,0 4,-1.79086 4,-4c0,-2.20914 -1.79086,-4 -4,-4z"></path>
+                    </g>
+                </g>
+            </svg>
+        </a>
+    );
+}
 
 function YouTubeIcon() {
     return (
         <a
-            href="https://www.youtube.com/channel/your-channel-id"
+            href="https://www.youtube.com/@sergiostorm-gp"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -79,7 +79,11 @@ function YouTubeIcon() {
 
 function TikTokIcon() {
     return (
-        <a href="https://www.tiktok.com/@taimpresiones3dlaplata">
+        <a
+            href="https://www.tiktok.com/@sergiostorm"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
             <svg
                 width="24"
                 height="24"
@@ -125,9 +129,11 @@ function LinkCard({
             href={href}
             className="flex items-center p-1 w-full rounded-md hover:scale-105 transition-all 
       border border-gray-300 mb-3 bg-gray-100 max-w-3xl"
+            target="_blank"
+            rel="noopener noreferrer"
         >
             <div className="flex text-center w-full">
-                {image && ( // Mostrar solo si existe la imagen
+                {image && (
                     <div className="w-10 h-10">
                         <Image
                             className="rounded-sm"
@@ -153,11 +159,6 @@ const data: Data = {
     name: 'TA Impresiones 3D',
     avatar: '/img/logo.png',
     links: [
-        // {
-        //     href: 'https://www.instagram.com/taimpresiones3dlaplata/',
-        //     title: 'Instagram',
-        //     image: '/img/instagram.png',
-        // },
         {
             href: 'https://discord.gg/KcMaE438',
             title: 'Discord',
@@ -165,37 +166,27 @@ const data: Data = {
         },
         {
             href: 'https://www.tiktok.com/@sergiostorm',
-            title: 'TiKtok',
+            title: 'TikTok',
             image: '/img/tiktok.png',
         },
-
         {
             href: 'https://www.youtube.com/@sergiostorm-gp',
             title: 'Youtube',
             image: '/img/youtube.png',
         },
-        // {
-        //     href: 'https://taimpresiones3d.com.ar/',
-        //     title: 'Tienda',
-        //     image: '/img/store.png',
-        // },
     ],
     socials: [
         {
             href: 'https://discord.gg/KcMaE438',
             title: 'Comunidad de Discord',
         },
-        // {
-        //     href: 'https://www.instagram.com/taimpresiones3dlaplata/',
-        //     title: 'Instagram',
-        // },
         {
             href: 'https://www.youtube.com/@sergiostorm-gp',
             title: 'Youtube',
         },
         {
             href: 'https://www.tiktok.com/@sergiostorm',
-            title: 'TiKtok',
+            title: 'TikTok',
         },
     ],
 };
