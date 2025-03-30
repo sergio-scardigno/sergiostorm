@@ -180,7 +180,7 @@ function LinkCard({
 }
 
 const data: Data = {
-    name: 'TA Impresiones 3D',
+    name: 'Comunidad SergioStorm',
     avatar: '/img/logo.png',
     links: [
         {
