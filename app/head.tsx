@@ -1,7 +1,7 @@
 export default function Head() {
     return (
         <>
-            <title>TA Impresiones 3D La Plata</title>
+            <title>Comunidad SergioStorm</title>
             <meta name="Comunidad SergioStorm" content="SergioStorm" />
             <link rel="icon" href="/favicon.ico" />
             <meta
