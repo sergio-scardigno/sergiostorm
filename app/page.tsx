@@ -104,7 +104,7 @@ function TikTokIcon() {
 function DiscordIcon() {
     return (
         <a
-            href="https://discord.gg/KcMaE438"
+            href="https://discord.gg/fvD5kRuct3"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -184,7 +184,7 @@ const data: Data = {
     avatar: '/img/logo.png',
     links: [
         {
-            href: 'https://discord.gg/KcMaE438',
+            href: 'https://discord.gg/fvD5kRuct3',
             title: 'Discord',
             image: '/img/discord.png',
         },
@@ -201,7 +201,7 @@ const data: Data = {
     ],
     socials: [
         {
-            href: 'https://discord.gg/KcMaE438',
+            href: 'https://discord.gg/fvD5kRuct3',
             title: 'Comunidad de Discord',
         },
         {
